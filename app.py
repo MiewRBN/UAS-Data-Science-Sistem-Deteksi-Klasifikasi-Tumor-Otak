@@ -745,6 +745,6 @@ with tab3:
 st.markdown("""
 <hr style="border-color:rgba(0,210,255,0.15); margin-top:4rem;">
 <div style="text-align:center; padding:1.5rem 0; color:#4a6285; font-size:0.9rem; font-weight:500; letter-spacing: 0.5px;">
-    &copy; 2024 Proyek Infrastruktur Ujian Akhir Semester (UAS) Ilmu Komputasi Data Science &nbsp; | &nbsp; Modul Pengembangan purwarupa Sistem Deteksi Cerdas *Machine Learning* Interaktif
+    &copy; 2026 Ujian Akhir Semester (UAS) Data Science Informatika 23 &nbsp;
 </div>
 """, unsafe_allow_html=True)
