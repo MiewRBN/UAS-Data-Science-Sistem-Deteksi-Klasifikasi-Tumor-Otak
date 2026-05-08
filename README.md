@@ -128,20 +128,42 @@ Dua model yang dibandingkan:
 
 # 📈 Visualisasi Data
 
-## 1. Korelasi Antar Fitur (Heatmap)
+### 1. Korelasi Antar Fitur (Heatmap)
 
-## 2. Distribusi Data (Boxplot)
+Visualisasi ini membantu dalam memahami bagaimana setiap parameter statistik saling berhubungan.
 
-## 3. Feature Importance
+![Heatmap Fitur](assets/heatmap_tumor.png)
 
-Berdasarkan analisis model, fitur **Entropy** dan **Mean Intensity** menjadi parameter paling berpengaruh terhadap hasil klasifikasi.
+---
 
-## 4. Confusion Matrix
+### 2. Distribusi Data (Boxplot)
 
-Perbandingan hasil prediksi antara:
+Boxplot menunjukkan rentang nilai untuk setiap kategori, memberikan gambaran jelas mengapa fitur tertentu sangat membedakan tumor satu dengan lainnya.
 
-- Random Forest
-- Support Vector Machine (SVM)
+![Boxplot Distribusi Fitur](assets/boxplot_tumor.png)
+
+---
+
+### 3. Pentingnya Fitur (Feature Importance)
+
+Berdasarkan pelatihan model, fitur **Entropy** dan **Mean** seringkali menjadi penentu utama dalam klasifikasi tumor.
+
+![Feature Importance](assets/feature_importance_tumor.png)
+
+---
+
+### 4. Performa Model (Confusion Matrix)
+
+Kami membandingkan performa antara **Random Forest** dan **Support Vector Machine (SVM)**.  
+Random Forest dipilih karena akurasinya yang lebih stabil pada data fitur statistik.
+
+#### • Random Forest Performance
+
+![Confusion Matrix - Random Forest](assets/confusion_matrix_tumor-random%20forest.png)
+
+#### • SVM Performance (Benchmark)
+
+![Confusion Matrix - SVM](assets/confusion_matrix_tumor-SVM.png)
 
 ---
 
@@ -217,6 +239,10 @@ Hasil prediksi AI tidak dapat digunakan sebagai pengganti diagnosis medis profes
 
 Dikembangkan untuk proyek **Ujian Akhir Semester (UAS)** Mata Kuliah Data Science.
 
-- Universitas Siliwangi
-- Program Studi Informatika
+- Azmi Nur Shidiq Ridwan
+- Latief Naufal Andryyanto
+- Naurah Yulistia Sya'bani
+- Rachel Disa Talitha Rachma
+- Sigit Prayoga
+- Zaky Zahran Pramadita
 - BrainScan AI © 2026
